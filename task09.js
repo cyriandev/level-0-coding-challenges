@@ -3,11 +3,11 @@
 function vowels(word) {
 
     word = word.toLowerCase();
-    var m = word.match(/[aeiou]/gi);
+    var matches = word.match(/[aeiou]/gi);
 
     var unique = [];
 
-    m.forEach(letter => {
+    matches.forEach(letter => {
         if (!unique.includes(letter)) {
             unique.push(letter);
         }
