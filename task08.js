@@ -8,9 +8,9 @@ function toHours(time) {
         var hour = hours - Math.floor(hours);
         var minutes = Math.round(hour * 60);
 
-        return `${Math.floor(hours)} hour${Math.floor(hours) > 1 ? "s" : ''}, ${minutes} minute${minutes > 1 ? "s" : ''}`;
+        return `${Math.floor(hours)} hour${Math.floor(hours) >= 0 ? "s" : ''}, ${minutes} minute${minutes > 1 ? "s" : ''}`;
     }
-    return `${hours} hour${hours > 1 ? "s" : ''}, 0  minutes`;
+    return `${hours} hour${hours >= 0 ? "s" : ''}, 0  minutes`;
 
 }
 
