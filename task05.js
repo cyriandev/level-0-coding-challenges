@@ -3,8 +3,8 @@
 
 function area(a, b, c) {
 
-    var semiperimeter = (a + b + c) / 2;
-    var area = Math.sqrt(semiperimeter * (semiperimeter - a) * (semiperimeter - b) * (semiperimeter - c));
+    const semiperimeter = (a + b + c) / 2;
+    const area = Math.sqrt(semiperimeter * (semiperimeter - a) * (semiperimeter - b) * (semiperimeter - c));
 
     return area.toFixed(2);
 }
