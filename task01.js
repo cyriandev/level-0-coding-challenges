@@ -1,8 +1,8 @@
 // Task 0.1
 
 
-var x = 0;
-var y = 1;
+let x = 0;
+let y = 1;
 
 console.log("x: " + x, "y: " + y);
 
