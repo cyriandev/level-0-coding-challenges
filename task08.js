@@ -1,12 +1,12 @@
 // TasK 0.8
 
 function toHours(time) {
-    var hours = time / 60;
+    const hours = time / 60;
 
     if (hours % 1) {
 
-        var hour = hours - Math.floor(hours);
-        var minutes = Math.round(hour * 60);
+        const hour = hours - Math.floor(hours);
+        const minutes = Math.round(hour * 60);
 
         return `${Math.floor(hours)} hour${Math.floor(hours) >= 0 ? "s" : ''}, ${minutes} minute${minutes > 1 ? "s" : ''}`;
     }
