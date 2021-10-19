@@ -2,8 +2,8 @@
 
 
 function maximum() {
-    var max = arguments[0];
-    for (var i = 0; i < arguments.length; i++) {
+    let max = arguments[0];
+    for (let i = 0; i < arguments.length; i++) {
         if (arguments[i] > max) {
             max = arguments[i];
         }
